@@ -1,0 +1,39 @@
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/main_nav.ejs') %>
+   
+
+<main class="container">
+  <div class="jumbotron">
+    <h1 class="display-4" style="text-align: center;">Welcome to <%= title %> page</h1>
+    <p id="personal" style="text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 30px">
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-file-earmark-person" viewBox="0 0 16 16">
+        <path d="M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+        <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2v9.255S12 12 8 12s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h5.5v2z"/>
+      </svg>
+      Personal Information</p>
+      <ul id="about">
+        <li style="list-style-type: none;">
+          <p style ="text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 20px">Student Name: Yanhua He</p>
+        </li>
+        <li style="list-style-type: none;">
+          <p style ="text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 20px">Student Number: 301232558</p>
+        </li>
+        <li style="list-style-type: none;">
+          <img src="img/aboutImage.jpg" style="display: block; margin-left: auto; margin-right: auto; width: 500px; height: 500px;">
+        </li>
+      </ul>
+      <p id="personal" style="text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 30px;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-file-person" viewBox="0 0 16 16">
+          <path d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"/>
+          <path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+        </svg>
+        Resume</p>  
+    <embed src="/Resume/Resume - Yanhua He - 9.28.pdf" alt = "Resume" style="width: 900px; height : 900px; display: block; margin-left: auto; margin-right: auto; padding-bottom: 20px;" >
+    </div>
+    </main>
+    <!--bottom nav-->
+   
+   
+      <!--script section-->
+      <%- include ('partials/bottom_nav.ejs') %>
+      <%- include ('partials/footer.ejs') %>
